@@ -209,4 +209,14 @@
   section#Neurals p {
       text-align: left;
   } 
+
+  a.btn {
+    position: relative;
+    z-index: 100000000;
+  }
+
+  img.spaceship {
+    position: absolute;
+    left: 34px;
+  }
 }
