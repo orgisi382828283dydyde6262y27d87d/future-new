@@ -1,0 +1,29 @@
+body{
+    background-color: #000;
+    background: url('/assets/images/404-background.png');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: calc(100vh - 80px);
+    width: calc(100% - 80px);
+    margin: 0px;
+    padding: 40px;
+    backdrop-filter: drop-shadow(2px 4px 6px black);
+}
+
+* {
+    color: #fff;
+    text-align: center;
+    font-family: 'Exan', sans-serif;
+}
+
+.sputnik img {
+    max-width: 512px;
+    width: 100%;
+}
+
+@font-face {
+  font-family: 'Exan';
+  src: url('/assets/fonts/Exan-Regular.ttf');
+}
