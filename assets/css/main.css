@@ -218,5 +218,6 @@
   img.spaceship {
     position: absolute;
     left: 34px;
+    max-width: calc(100vw - 100px);
   }
 }
