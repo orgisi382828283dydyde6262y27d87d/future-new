@@ -36,7 +36,8 @@
       font-family: Kontakt, sans-serif;
   }
   
-  html {
+  html { 
+      scroll-behavior: smooth;
       font-size: 100%;
       box-sizing: border-box;
   }
